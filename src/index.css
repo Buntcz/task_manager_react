@@ -1,0 +1,17 @@
+.todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.deleteBtn, .editBtn {
+    width: 50px;
+    height: 25px;
+}
+
+.completed {
+    color: red;
+}
